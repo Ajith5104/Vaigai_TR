@@ -15,20 +15,21 @@ import nine from "../assets/ooty-img-9.png";
 const Ooty = () => {
   return (
     <div className="ooty-container container-fluid">
-      <div className="row top-banner ">
-        <div className="top-banner-img col-md-6 d-flex justify-content-sm-start justify-content-md-center  align-items-center">
-          <div>
+      <div className="row top-banner">
+        <div className="top-banner-img col-12 col-md-6 d-flex justify-content-center align-items-center mb-4 mb-md-0">
+          <div className="text-center text-md-start">
             <h2 className="text-white">Dindigul to Ooty</h2>
             <p className="text-warning">HOME \ DINDIGUL TO OOTY</p>
-            <Link to={"/contact"} role="button">
+            <Link to="/contact" role="button">
               <button className="btn btn-danger">Book Now</button>
             </Link>
           </div>
         </div>
-        <div className="col-md-6  d-flex justify-content-sm-start justify-content-md-center  align-items-center">
-          <img src={car} alt="vaigai" />
+        <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
+          <img src={car} alt="car" className="img-fluid" />
         </div>
       </div>
+      
       <div className="container-md pt-5">
         <h2>Dindigul to Ooty</h2>
         <hr />
@@ -40,38 +41,12 @@ const Ooty = () => {
             historic landscapes of Dindigul to the captivating beauty of Ooty,
             making your journey as memorable as the destinations themselves.
           </p>
-          <div className="details-place">
-            <div className="place-image">
-              <img src={one} alt="vaigai" />
-            </div>
-            <div className="place-image">
-              <img src={two} alt="vaigai" />
-            </div>
-            <div className="place-image">
-              <img src={three} alt="vaigai" />
-            </div>
-          </div>
-          <div className="details-place mt-3">
-            <div className="place-image">
-              <img src={four} alt="vaigai" />
-            </div>
-            <div className="place-image">
-              <img src={five} alt="vaigai" />
-            </div>
-            <div className="place-image">
-              <img src={six} alt="vaigai" />
-            </div>
-          </div>
-          <div className="details-place mt-3">
-            <div className="place-image">
-              <img src={siven} alt="vaigai" />
-            </div>
-            <div className="place-image">
-              <img src={eight} alt="vaigai" />
-            </div>
-            <div className="place-image">
-              <img src={nine} alt="vaigai" />
-            </div>
+          <div className="row">
+            {[one, two, three, four, five, six, siven, eight, nine].map((img, index) => (
+              <div key={index} className="col-12 col-sm-6 col-md-4 mb-3">
+                <img src={img} alt={`place-${index}`} className="img-fluid" />
+              </div>
+            ))}
           </div>
           <h2 className="pt-5">About Ooty</h2>
           <p>
@@ -80,13 +55,12 @@ const Ooty = () => {
             destination among tourists due to its pleasant climate, scenic
             beauty, and a range of outdoor activities. Here are some of the top
             visiting places in Ooty that you can include in your tour and travel
-            website
+            website.
           </p>
-          {/* ooty-iframe */}
           <div className="row">
-            <div className="col-md-10 pt-3">
+            <div className="col-12 col-md-10 pt-3">
               <iframe
-              title="ooty"
+                title="ooty-map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62575.032789490404!2d76.65222163242208!3d11.411933863388231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8bd84b5f3d78d%3A0x179bdb14c93e3f42!2sOoty%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1708876416152!5m2!1sen!2sin"
                 width="100%"
                 height="450"
