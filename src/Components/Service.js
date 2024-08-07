@@ -27,7 +27,7 @@ function Service() {
       <div className="service-section container-fluid py-3">
         {/* First Row */}
 
-        <div className="d-flex flex-wrap justify-content-around mt-3 ">
+        {/* <div className="d-flex flex-wrap justify-content-around mt-3 ">
           {Array(3)
             .fill()
             .map((_, index) => (
@@ -62,10 +62,10 @@ function Service() {
                 </div>
               </div>
             ))}
-        </div>
+        </div> */}
 
         {/* Second Row */}
-        <div className="d-flex flex-wrap justify-content-around mt-3 ">
+        {/* <div className="d-flex flex-wrap justify-content-around mt-3 ">
           {Array(3)
             .fill()
             .map((_, index) => (
@@ -100,7 +100,7 @@ function Service() {
                 </div>
               </div>
             ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
