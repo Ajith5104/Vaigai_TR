@@ -2,18 +2,18 @@
    position: relative;
 }
 .we-offer .offer-img{
-    width:500px;
-    height: 300px;
+    width:300;
+    height: 250;
     /* background: url(../public/img/ooty-img-4.jpg); */
     
 }
 .we-offer .offer-img img{
-    width: 100%;
-    height: 100%;
+    width: 300%;
+    height: 250%;
 }
 .we-offer .offer-details{
-    width:500px;
-    height: 300px;
+    width:355px;
+    height: 200px;
    
     position: absolute;
     top: 0;

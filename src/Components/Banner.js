@@ -147,7 +147,7 @@ function Banner() {
               <Link to={"/dindigul-ooty"}>
                 <div className="we-offer">
                   <div className="offer-img">
-                    <img src={ooty} alt="vaigai" className="img-fluid" />
+                    <img src={ooty}  alt="vaigai" className="img-fluid"  />
                   </div>
                   <div className="offer-details d-flex justify-content-center align-items-center">
                     <h2 className="text-white">Dindigul to Ooty</h2>
