@@ -166,7 +166,6 @@ img.absolute {
   width: 450px;
   margin-bottom: 20px;
   margin-right: 20px;
-  /* border: 1px solid red; */
 }
 .form-details form input {
   height: 32px;
@@ -188,7 +187,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 input[type="number"] {
-  -moz-appearance: textfield;
+  appearance: none;
 }
 @media screen and (max-width: 987px) {
   .form-form {
