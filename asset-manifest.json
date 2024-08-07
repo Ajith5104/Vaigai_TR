@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Vaigai_TR/static/css/main.49c9baa8.css",
+    "main.css": "/Vaigai_TR/static/css/main.4acf38e8.css",
     "main.js": "/Vaigai_TR/static/js/main.01724fdf.js",
     "static/media/munnar-1.jpg": "/Vaigai_TR/static/media/munnar-1.7c6e82c818c7237c88ae.jpg",
+    "static/media/water.gif": "/Vaigai_TR/static/media/water.9f19a2d877ec97b71a10.gif",
     "static/media/munnar-6.jpg": "/Vaigai_TR/static/media/munnar-6.8ffb678c99f3ae61a178.jpg",
     "static/media/car-gif.gif": "/Vaigai_TR/static/media/car-gif.310fb04e049e9d65afb2.gif",
     "static/media/ooty-img-9.png": "/Vaigai_TR/static/media/ooty-img-9.c4a936b5b84a89b3634b.png",
@@ -47,11 +48,11 @@
     "static/media/Hyundai_Creta.jpg": "/Vaigai_TR/static/media/Hyundai_Creta.450a9ff17bc52a555ca0.jpg",
     "static/media/Toyota_Fortuner.jpg": "/Vaigai_TR/static/media/Toyota_Fortuner.80f0b5c5c2eee093859d.jpg",
     "index.html": "/Vaigai_TR/index.html",
-    "main.49c9baa8.css.map": "/Vaigai_TR/static/css/main.49c9baa8.css.map",
+    "main.4acf38e8.css.map": "/Vaigai_TR/static/css/main.4acf38e8.css.map",
     "main.01724fdf.js.map": "/Vaigai_TR/static/js/main.01724fdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.49c9baa8.css",
+    "static/css/main.4acf38e8.css",
     "static/js/main.01724fdf.js"
   ]
 }
