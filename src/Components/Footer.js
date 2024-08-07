@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="col-12 col-md-4 mb-4 mb-md-0">
             <h3 className="text-center text-md-start">MAIN LINKS</h3>
             <ul className="navbar-nav text-center text-md-start">
-              <li><Link to={"/"} className="nav-link">Home</Link></li>
+              <li><Link to={"/Vaigai_TR"} className="nav-link">Home</Link></li>
               <li><Link to={"/about"} className="nav-link">About</Link></li>
               <li><Link to={"/service"} className="nav-link">Service</Link></li>
               <li><Link to={"/gallery"} className="nav-link">Gallery</Link></li>

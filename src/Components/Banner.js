@@ -119,21 +119,8 @@ function Banner() {
                   creating personalised itineraries that reflect your interests,
                   whether it’s delving into historical landmarks, savouring
                   local cuisine, or embracing the natural beauty of the region.
-                  With meticulous attention to detail, we transform ordinary
-                  tours into extraordinary experiences, making us the go-to
-                  choice for discerning travellers seeking the best in tours and
-                  travel in Dindigul.
-                </p>
-                <p>
-                  We understand that every traveller is unique, and that’s why
-                  we go the extra mile to tailor our services to meet your
-                  specific preferences. Whether you are a solo adventurer, a
-                  couple seeking a romantic getaway, or a family in search of
-                  memorable moments, our travel agents in Dindigul are here to
-                  curate a journey that suits your style. Choose us for
-                  unparalleled tours and travels in Dindigul, where every step
-                  is an invitation to discover the essence of this captivating
-                  destination.”
+                  With meticulous attention to detail, we transform ordinary.
+                
                 </p>
               </div>
             </div>
