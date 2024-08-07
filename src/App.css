@@ -1,21 +1,29 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* General Styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 .navbar-nav {
   cursor: pointer;
 }
+
+/* Home Intro */
 .our-home-intro {
   background: linear-gradient(to right, #ffffffad, #ffffffa7),
     url(../src/assets/home-intro1.jpg) no-repeat bottom;
   background-size: cover;
 }
+
+/* Banner */
 .banner-top-site {
   position: relative;
 }
+
 .intro-to-top {
   position: absolute;
   top: 0;
@@ -23,58 +31,48 @@
   height: 100%;
   color: #fff;
 }
+
+/* Slider */
 .slider-img {
   position: relative;
 }
+
 .fot-link li > a {
   text-decoration: none;
   color: #fff;
 }
+
 .slider-img .pi::before {
   content: "";
   position: absolute;
   inset: 0;
   background-color: #00000085;
 }
-servive section */ .service {
+
+/* Services Section */
+.service {
   background-size: cover;
   background-position: bottom;
   overflow: hidden;
 }
-.galleys-section {
-  overflow-x: hidden;
-  background: linear-gradient(to right, #000000ea, #000000e9);
-}
-.first-section {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  gap: 10px;
-  overflow: hidden;
-  animation: transforms 2s ease-in-out;
-}
-@keyframes transforms {
-  from {
-    transform: translateY(170%);
-  }
-  to {
-    transform: translate(0);
-  }
-}
+
 .container-service {
   position: relative;
   overflow: hidden;
   width: 360px;
   box-shadow: 0 8px 10px #000000c7;
 }
+
 .service-img {
   width: 360px;
   height: 210px;
 }
+
 .service-img img {
   height: 100%;
   width: 100%;
 }
+
 .service-details {
   position: absolute;
   top: 220px;
@@ -83,24 +81,53 @@ servive section */ .service {
   background-color: rgba(0, 0, 0, 0.712);
   transition: all 1s ease-in-out;
 }
+
 .container-service:hover .service-details {
   top: 0;
 }
+
 .service-details h2,
 .service-details p {
   color: white;
 }
+
 /* Gallery */
+.galleys-section {
+  overflow-x: hidden;
+  background: linear-gradient(to right, #000000ea, #000000e9);
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: hidden;
+  animation: transforms 2s ease-in-out;
+}
+
+@keyframes transforms {
+  from {
+    transform: translateY(170%);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
 .gallery-section {
   padding: 7px 0;
 }
+
 .Gallery {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
+
 .gallery-row {
   animation: transform 2s ease-in-out;
 }
+
 @keyframes transform {
   0% {
     transform: translateY(-100%);
@@ -109,19 +136,23 @@ servive section */ .service {
     transform: translateX(0);
   }
 }
+
 /* Footer */
 footer {
   color: white;
   background-color: #000;
 }
+
 footer .local-links ul li:hover {
   color: #fc466b;
   font-size: larger;
 }
+
 footer .footer-section + div {
   border-top: 1px solid white;
 }
 
+/* Main */
 .main {
   width: 300px;
   margin: 0 auto;
@@ -135,21 +166,21 @@ img.absolute {
   margin-left: -200px;
   position: absolute;
 }
-/* contatc */
 
+/* Contact */
 .top-banner-contact {
   height: 55vh;
   background-size: cover;
   position: relative;
   background: linear-gradient(to right, #090909cd, rgba(10, 10, 10, 0.707)),
     url(../src/assets/contact-img.jpg) top;
-  background-size: cover;
-  position: relative;
 }
+
 .contact-page {
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
 .company-address {
   width: 450px;
   height: 400px;
@@ -158,73 +189,91 @@ img.absolute {
   justify-content: space-evenly;
   padding-left: 20px;
 }
+
 .company-address i {
   color: orangered;
 }
+
 .form-details {
   background-color: #cccccc3f;
   width: 450px;
   margin-bottom: 20px;
   margin-right: 20px;
 }
+
 .form-details form input {
   height: 32px;
   outline: none;
   padding-left: 5px;
 }
+
 .form-inform {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 iframe {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 input[type="number"] {
-  appearance: none;
+  -moz-appearance: textfield;
 }
+
+/* Media Queries */
 @media screen and (max-width: 987px) {
   .form-form {
     width: 100%;
     margin-top: 17%;
     position: relative;
   }
+
   .form-inform {
     justify-content: flex-start;
   }
+
   .contact-page {
     flex-direction: column;
     width: 100%;
   }
+
   .form-details {
     width: 100%;
   }
+
   .company-address {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 757px) {
   .first-section {
     flex-direction: column;
     justify-content: flex-start;
   }
+
   .brand-vaigai-travel {
     height: 40px;
   }
 }
+
 @media screen and (max-width: 500px) {
   iframe {
     width: 310px;
   }
+
   .form-details {
     width: 100%;
   }
+
   .company-address {
     width: 100%;
   }
