@@ -65,17 +65,17 @@ const Footer = () => {
         </h6>
         <ul className="list-unstyled d-flex justify-content-center justify-content-md-end mb-0">
           <li className="d-inline-flex p-2">
-            <a href="/" className="text-dark">
+            <a href="www.facebook.com" className="text-dark">
               <i className="bi bi-whatsapp fs-5"></i>
             </a>
           </li>
           <li className="d-inline-flex p-2">
-            <a href="/" className="text-dark">
+            <a href="https://web.whatsapp.com/" className="text-dark">
               <i className="bi bi-facebook fs-5"></i>
             </a>
           </li>
           <li className="d-inline-flex p-2">
-            <a href="/" className="text-dark">
+            <a href="www.instagram.com" className="text-dark">
               <i className="bi bi-instagram fs-5"></i>
             </a>
           </li>
