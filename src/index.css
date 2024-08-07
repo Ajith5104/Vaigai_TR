@@ -1,40 +1,38 @@
-.we-offer{
-   position: relative;
+.we-offer {
+  position: relative;
 }
-.we-offer .offer-img{
-    width:300;
-    height: 250;
-    /* background: url(../public/img/ooty-img-4.jpg); */
-    
+.we-offer .offer-img {
+  width: 300;
+  height: 250;
 }
-.we-offer .offer-img img{
-    width: 300%;
-    height: 250%;
+.we-offer .offer-img img {
+  width: 300%;
+  height: 250%;
 }
-.we-offer .offer-details{
-    width:355px;
-    height: 200px;
-   
-    position: absolute;
-    top: 0;
-    transform: scale(0);
+.we-offer .offer-details {
+  width: 355px;
+  height: 200px;
+
+  position: absolute;
+  top: 0;
+  transform: scale(0);
 }
-.we-offer:hover .offer-details{
-    transform: scale(1);
-    background: #0000009d;
-    transition: all 1s ease-in-out;
+.we-offer:hover .offer-details {
+  transform: scale(1);
+  background: #0000009d;
+  transition: all 1s ease-in-out;
 }
 .offer-service {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 15px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  flex-wrap: wrap;
 }
-.top-banner-about{
-    height: 57vh;
-    background-size: cover;
-    position: relative;
-     background: url(../src/assets/water.gif) bottom;
-     background-size: cover;
-     position: relative;
+.top-banner-about {
+  height: 57vh;
+  background-size: cover;
+  position: relative;
+  background: url(../src/assets/water.gif) bottom;
+  background-size: cover;
+  position: relative;
 }

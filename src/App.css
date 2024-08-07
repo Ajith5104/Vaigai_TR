@@ -69,7 +69,6 @@ servive section */ .service {
 }
 .service-img {
   width: 360px;
-  /* background: #000; */
   height: 210px;
 }
 .service-img img {
@@ -79,7 +78,6 @@ servive section */ .service {
 .service-details {
   position: absolute;
   top: 220px;
-  /* top: 0; */
   bottom: 0;
   width: 360px;
   background-color: rgba(0, 0, 0, 0.712);
@@ -95,7 +93,6 @@ servive section */ .service {
 /* Gallery */
 .gallery-section {
   padding: 7px 0;
-  /* background-color: #ccc; */
 }
 .Gallery {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
