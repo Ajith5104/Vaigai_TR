@@ -22,7 +22,9 @@ function Gallery() {
                 />
               </div>
               <div className="place-details">
-                <p className="text-center fs-5 pt-2 text-white">Hyundai Creta</p>
+                <p className="text-center fs-5 pt-2 text-white">
+                  Hyundai Creta
+                </p>
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 service-parent">
@@ -46,7 +48,9 @@ function Gallery() {
                 />
               </div>
               <div className="place-details">
-                <p className="text-center fs-5 pt-2 text-white">Maruti Ertiga</p>
+                <p className="text-center fs-5 pt-2 text-white">
+                  Maruti Ertiga
+                </p>
               </div>
             </div>
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 service-parent">
@@ -82,7 +86,9 @@ function Gallery() {
                 />
               </div>
               <div className="place-details">
-                <p className="text-center fs-5 pt-2 text-white">Toyota Fortuner</p>
+                <p className="text-center fs-5 pt-2 text-white">
+                  Toyota Fortuner
+                </p>
               </div>
             </div>
           </div>

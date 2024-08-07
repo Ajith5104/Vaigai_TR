@@ -22,9 +22,9 @@ function App() {
           <Route path="/service" element={<Service />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/dindigul-ooty" element={<Ooty/>} />
-          <Route path="/dindigul-kodaikanal" element={<Kodaikanal/>} />
-          <Route path="/dindigul-munnar" element={<Munnar/>} />
+          <Route path="/dindigul-ooty" element={<Ooty />} />
+          <Route path="/dindigul-kodaikanal" element={<Kodaikanal />} />
+          <Route path="/dindigul-munnar" element={<Munnar />} />
         </Routes>
         <Footer />
       </div>

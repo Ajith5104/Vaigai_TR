@@ -28,9 +28,19 @@ function About() {
         <div className="row">
           <div className="col-md-6 d-flex align-items-center">
             <div>
-              <h2 className="pt-3 pb-4 text-center text-md-left">VAIGAI TRAVAL</h2>
+              <h2 className="pt-3 pb-4 text-center text-md-left">
+                VAIGAI TRAVAL
+              </h2>
               <p>
-                We are one of the leading cab providers in Chennai with over 30 years of experience in providing services to locals, tourists, and majorly corporates. We offer a wide variety of passenger vehicles to suit all your needs, be it local, airport trips, and even outstation trips. We are driven by our commitment to provide the best customer service and client relations, which has earned us the trust of our esteemed customers for so many years. We work round the clock to provide services with well-groomed drivers backed with well-maintained cars.
+                We are one of the leading cab providers in Chennai with over 30
+                years of experience in providing services to locals, tourists,
+                and majorly corporates. We offer a wide variety of passenger
+                vehicles to suit all your needs, be it local, airport trips, and
+                even outstation trips. We are driven by our commitment to
+                provide the best customer service and client relations, which
+                has earned us the trust of our esteemed customers for so many
+                years. We work round the clock to provide services with
+                well-groomed drivers backed with well-maintained cars.
               </p>
             </div>
           </div>

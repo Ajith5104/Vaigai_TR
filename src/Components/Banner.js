@@ -42,21 +42,33 @@ function Banner() {
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active pi">
-                  <img src={one} className="d-block w-100 img-fluid" alt="..." />
+                  <img
+                    src={one}
+                    className="d-block w-100 img-fluid"
+                    alt="..."
+                  />
                   <div className="carousel-caption d-none d-md-block">
                     <h1>Water Falls</h1>
                     {/* <p>Some representative placeholder content for the first slide.</p> */}
                   </div>
                 </div>
                 <div className="carousel-item pi">
-                  <img src={two} className="d-block w-100 img-fluid" alt="..." />
+                  <img
+                    src={two}
+                    className="d-block w-100 img-fluid"
+                    alt="..."
+                  />
                   <div className="carousel-caption d-none d-md-block">
                     <h1>Natural Place</h1>
                     {/* <p>Some representative placeholder content for the second slide.</p> */}
                   </div>
                 </div>
                 <div className="carousel-item pi">
-                  <img src={three} className="d-block w-100 img-fluid" alt="..." />
+                  <img
+                    src={three}
+                    className="d-block w-100 img-fluid"
+                    alt="..."
+                  />
                   <div className="carousel-caption d-none d-md-block">
                     <h1>Beach Place</h1>
                     {/* <p>Some representative placeholder content for the third slide.</p> */}
@@ -120,7 +132,6 @@ function Banner() {
                   whether it’s delving into historical landmarks, savouring
                   local cuisine, or embracing the natural beauty of the region.
                   With meticulous attention to detail, we transform ordinary.
-                
                 </p>
               </div>
             </div>
@@ -134,7 +145,7 @@ function Banner() {
               <Link to={"/dindigul-ooty"}>
                 <div className="we-offer">
                   <div className="offer-img">
-                    <img src={ooty}  alt="vaigai" className="img-fluid"  />
+                    <img src={ooty} alt="vaigai" className="img-fluid" />
                   </div>
                   <div className="offer-details d-flex justify-content-center align-items-center">
                     <h2 className="text-white">Dindigul to Ooty</h2>

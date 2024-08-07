@@ -11,16 +11,13 @@ export const Contact = () => {
               <p className="text-warning">HOME \ DINDIGUL TO OOTY</p>
             </div>
           </div>
-          <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
-            {/* <img src="/img/car-gif.gif" alt="vaigai" className="img-fluid" /> */}
-          </div>
         </div>
 
         <div className="contact-form">
           <h2 className="text-danger text-center p-3">CONTACT</h2>
           <div className="form-inform">
-            <div className="contact-page pt-3 rounded">
-              <div className="company-address mb-4">
+            <div className="contact-page pt-2 rounded">
+              <div className="company-address mb-2">
                 <h5>
                   <i className="bi bi-telephone-fill p-2"></i>CALL US
                 </h5>
@@ -34,8 +31,9 @@ export const Contact = () => {
                 </h5>
                 <p>Monday to Friday / 9.30 AM - 6.30 PM</p>
               </div>
+
               <div className="form-details rounded">
-                <form className="d-flex flex-column ps-3 pe-3 pb-3">
+                <form className="d-flex flex-column ps-2 pe-2 pb-3">
                   <h2 className="text-center">Contact Now</h2>
                   <label htmlFor="name_field" className="fs-5">
                     Enter Your Name
@@ -90,9 +88,6 @@ export const Contact = () => {
               amet consectetur adipisicing elit. Ipsum placeat eveniet hic
               possimus nam quam? Dolores sapiente quasi deserunt veritatis,
               optio illo ea in atque? Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Ipsum placeat eveniet hic possimus nam quam?
-              Dolores sapiente quasi deserunt veritatis, optio illo ea in
-              atque? Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Ipsum placeat eveniet hic possimus nam quam? Dolores sapiente
               quasi deserunt veritatis, optio illo ea in atque?
             </p>
